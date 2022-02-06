@@ -17,7 +17,6 @@ body {
 }
 
 /*HEADER / NAV BAR STYLES START */
-
 header {
   padding: 20px 35px;
   display: flex;
@@ -62,7 +61,7 @@ header nav a:hover {
 
 /* STYLE ALL SECTION TAGS */
 section {
-  padding: 60px;
+  padding: 30px;
 }
 
 /* HERO STYLES START */
@@ -74,7 +73,7 @@ section {
 }
 
 .hero-img img {
-  max-width: 400px;
+  max-width: 300px;
   padding: 10px;
 }
 
@@ -98,4 +97,40 @@ section {
   height: 5px;
   width: 100%;
   margin-top: 50px;
+}
+/* HERO STYLES END */
+
+/* SECTION TITLE STYLES START */
+.section-title {
+  font-size: 36px;
+  color: var(--primary-color);
+  text-align: center;
+  margin: 0 auto 20px auto;
+  width: 50%;
+}
+
+/* ABOUT ME STYLES START */
+.about p {
+  line-height: 1.7;
+  color: var(--secondary-color);
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.about::after {
+  background: var(--tertiary-color);
+  border-radius: 1000px;
+  content: "";
+  display: block;
+  height: 5px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+/* UTILITIES */
+.flex-row {
+  display: flex;
 }
