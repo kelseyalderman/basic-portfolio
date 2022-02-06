@@ -1,0 +1,61 @@
+:root {
+  --primary-color: #191a1d;
+  --secondary-color: #394a51;
+  --tertiary-color: #7fa99b;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 0.08rem;
+}
+
+/*HEADER / NAV BAR STYLES START */
+
+header {
+  padding: 20px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: var(--tertiary-color);
+}
+
+header h1 a {
+  font-weight: bold;
+  margin: 0;
+  font-size: 36px;
+  color: var(--primary-color);
+  text-decoration: none;
+  letter-spacing: 0.2rem;
+}
+
+header nav {
+  margin: 7px 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+header nav a {
+  color: var(--primary-color);
+  text-decoration: none;
+  padding: 10px 20px;
+  font-weight: lighter;
+  font-size: 24px;
+}
+
+header nav a:hover {
+  color: var(--secondary-color);
+}
+
+/* HEADER / NAVBAR STYLES END */
