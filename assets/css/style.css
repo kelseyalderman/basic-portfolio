@@ -198,6 +198,76 @@ section {
   width: 100%;
   margin-top: 50px;
 }
+/* WORK STYLE END */
+
+/* CONTACT STYLES START */
+.contact-info {
+  color: var(--secondary-color);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact-info > * {
+  flex: 1;
+  margin: 15px;
+}
+
+.contact-info address {
+  margin: 20px 0 20px 20%;
+  line-height: 1.5;
+  font-size: 16px;
+  font-style: normal;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.contact-info a:hover {
+  font-weight: bold;
+}
+
+.contact-form h3 {
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+.contact-form input,
+.contact-form textarea {
+  border: 1px solid var(--secondary-color);
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: var(--secondary-color);
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+}
+
+.contact-form button {
+  width: 100%;
+  border: none;
+  background: var(--tertiary-color);
+  color: var(--primary-color);
+  text-align: center;
+  padding: 15px 0;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.contact-form button:hover {
+  color: var(--tertiary-color);
+  background: var(--primary-color);
+}
+
 /* UTILITIES */
 .flex-row {
   display: flex;
