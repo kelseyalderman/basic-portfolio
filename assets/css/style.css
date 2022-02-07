@@ -255,8 +255,8 @@ section {
 .contact-form button {
   width: 100%;
   border: none;
-  background: var(--tertiary-color);
-  color: var(--primary-color);
+  background: var(--secondary-color);
+  color: var(--tertiary-color);
   text-align: center;
   padding: 15px 0;
   font-size: 16px;
@@ -267,6 +267,21 @@ section {
   color: var(--tertiary-color);
   background: var(--primary-color);
 }
+/* CONTACT STYLES END */
+
+/* FOOTER STYLES */
+footer {
+  padding: 30px;
+  clear: both;
+  text-align: center;
+  color: var(--primary-color);
+  background-color: var(--tertiary-color);
+}
+
+footer h2 {
+  font-size: 20px;
+}
+/* FOOTER STYLES END */
 
 /* UTILITIES */
 .flex-row {
