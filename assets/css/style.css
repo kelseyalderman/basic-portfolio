@@ -132,7 +132,14 @@ section {
 /* ABOUT ME STYLES END */
 
 /*WORK STYLES START */
-.projects {
+.project-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.projects-cont {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
