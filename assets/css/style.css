@@ -197,7 +197,7 @@ section {
   display: block;
 }
 
-.projects::after {
+#work::after {
   background: var(--tertiary-color);
   border-radius: 1000px;
   content: "";
